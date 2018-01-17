@@ -1,13 +1,13 @@
 package Chapter5;
 
+import java.util.Scanner;
+
 /**
  * You play rock paper scissors with a computer and in order to win, either you
  * or the computer need to get 2 wins ahead.
  *
- * @author ea0987372
+ * @author Ethan Alberga
  */
-import java.util.Scanner;
-
 public class C5_34 {
 
     /**
@@ -49,7 +49,12 @@ public class C5_34 {
         }
     }
 
-    //Assigning rock, paper, and scissors to keys.
+    /**
+     * Assigning rock, paper, and scissors to keys.
+     *
+     * @param hand Shows what option between rock paper and scissors
+     * @return returns choice
+     */
     public static String getHand(int hand) {
         String handString;
         switch (hand) {

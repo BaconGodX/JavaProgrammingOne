@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Has you enter conversion rates for certain currencies then tells you
  * conversions for currencies.
  *
- * @author ea0987372
+ * @author Ethan Alberga
  */
 public class P6 {
 
@@ -62,7 +62,13 @@ public class P6 {
 
         } while (keepGoing.equals("yes"));
     }
-
+    /**
+     * 
+     * @param currency the currency you are converting to
+     * @param dollar the amount of US dollars you are converting
+     * @return the amount of whatever currency you selected after converting US
+     * dollars to it.
+     */
     public static double Converter(double currency, double dollar) {
         double result;
         if (dollar > 100) {

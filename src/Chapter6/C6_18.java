@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Has you enter a password and tells you if it is valid or not.
  *
- * @author ea0987372
+ * @author Ethan Alberga
  */
 public class C6_18 {
     /**
@@ -25,7 +25,12 @@ public class C6_18 {
             System.out.println("Invalid Password");
         }
     }
-    
+    /**
+     * 
+     * @param password checks to make sure that the password is long enough and
+     * checks the characters
+     * @return if the check was okay or not
+     */
     public static boolean checkPassword(String password) {
         boolean checkPassword = true;
         if (password.length() < 8) {

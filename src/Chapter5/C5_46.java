@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Program that has you enter a string and it will tell you the reverse of that
  * entered string.
  *
- * @author ea0987372
+ * @author Ethan Alberga
  */
 public class C5_46 {
 

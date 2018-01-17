@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Program that lets people vote yes or no and after you decide to finish it
  * will show show how many people voted yes and how many people voted no.
  *
- * @author ea0987372
+ * @author Ethan Alberga
  */
 public class P5 {
 
