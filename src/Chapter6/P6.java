@@ -63,6 +63,7 @@ public class P6 {
     }
 
     /**
+     * Converts US dollars to whatever selected currency.
      *
      * @param currency the currency you are converting to
      * @param dollar the amount of US dollars you are converting
