@@ -73,7 +73,14 @@ public class C5_34 {
         return handString;
     }
 
-    // Ddeciding if match has been won or lost.
+    /**
+     * Finds whether the player has more wins, the computer has more wins, or if
+     * it is a draw between the 2
+     *
+     * @param computer Finds how many wins the computer has
+     * @param player Finds how many wins the player has
+     * @return who won
+     */
     public static String getGameStatus(int computer, int player) {
         if (computer == player) {
             return "Draw";

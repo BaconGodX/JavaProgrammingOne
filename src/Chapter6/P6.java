@@ -15,7 +15,6 @@ public class P6 {
      *
      * @param args arguments from command line prompt
      */
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -62,8 +61,9 @@ public class P6 {
 
         } while (keepGoing.equals("yes"));
     }
+
     /**
-     * 
+     *
      * @param currency the currency you are converting to
      * @param dollar the amount of US dollars you are converting
      * @return the amount of whatever currency you selected after converting US
