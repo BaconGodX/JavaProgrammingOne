@@ -34,8 +34,8 @@ public class P7 {
     /**
      * Calculates the average of the numbers entered.
      *
-     * @param numbers
-     * @return
+     * @param numbers the numbers entered
+     * @return the average
      */
     public static double average(double numbers[]) {
         Arrays.toString(numbers);

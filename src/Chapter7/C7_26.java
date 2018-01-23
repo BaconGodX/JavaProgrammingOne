@@ -7,7 +7,6 @@ import java.util.Scanner;
  *
  * @author Ethan Alberga
  */
-
 public class C7_26 {
 
     /**
@@ -42,9 +41,9 @@ public class C7_26 {
     /**
      * Finds if the 2 arrays are identical
      *
-     * @param list1
-     * @param list2
-     * @return
+     * @param list1 the first list entered
+     * @param list2 the second list entered
+     * @return if it is identical or not
      */
     public static boolean equals(int[] list1, int[] list2) {
         if (list1.length != list2.length) {

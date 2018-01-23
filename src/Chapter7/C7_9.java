@@ -30,8 +30,8 @@ public class C7_9 {
     /**
      * Finds the min of the 10 numbers entered
      *
-     * @param array
-     * @return
+     * @param array the numbers entered
+     * @return the min number
      */
     public static double min(double[] array) {
         double min = array[0];

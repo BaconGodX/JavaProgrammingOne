@@ -48,7 +48,7 @@ public class C8_4 {
     /**
      * Sorts out the array
      *
-     * @param array
+     * @param array the array shown
      */
     public static void sort(int[] array) {
         int[] index = new int[8], parallel = new int[8];
